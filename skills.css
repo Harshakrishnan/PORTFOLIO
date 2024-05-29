@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align:left;
+}
+
+.heading {
+  margin: 20px 0;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+}
+
+.left-skills,
+.right-skills {
+  flex: 5;
+}
+
+.progress-bar {
+  background-color: #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.progress {
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.progress-bar .progress {
+  background-color: #4CAF50; /* Default color */
+  width: calc(var(--progress) * 1%);
+  transition: width 1s ease-in-out;
+}
+
+/* In case you want to adjust the width of the progress bar */
+.progress-bar {
+  width: 100%; /* Adjust this width if needed */
+}

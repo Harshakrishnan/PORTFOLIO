@@ -1,0 +1,30 @@
+/* Custom styles for the resume */
+.container{
+    justify-content: center;
+}
+.resume {
+     /* Adjust the width as needed */
+    margin-top: 10px; /* Center the box horizontally */
+    padding: 20px; /* Add padding for spacing */
+    background-color:burlywood; /* Optional: Add background color */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    text-align:left; /* Center align the content */
+}
+
+.profile-img {
+    width: 150px; /* Adjust the image size as needed */
+    border-radius: 50%; /* Make the image round */
+}
+
+.profile-name {
+    font-weight: bold; /* Make the name bold */
+}
+
+.profile-title {
+    font-weight: bold; /* Make the title bold */
+}
+
+.profile-heading {
+
+    font-weight: bold; /* Make the profile heading bold */
+}

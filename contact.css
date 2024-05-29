@@ -1,0 +1,176 @@
+
+
+
+
+
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-box,
+.right-box {
+    width: 45%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding drop-shadow */
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor:pointer;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 2;
+}
+
+#menu-toggle {
+    display:none;
+}
+
+.left-box {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.right-box {
+    background-color: #e0e0e0;
+    padding: 20px;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info .info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-info img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.map-box {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding drop-shadow */
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.map-box iframe {
+    width: 100%;
+    height: 400px; /* Adjust height as needed */
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#response-message {
+    margin-top: 10px;
+    color: green;
+}
+
+
+
+
+.right-box {
+    background-color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right-box h2 {
+    margin-bottom: 20px;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 100px; /* Adjust size as needed */
+}
+
+.name-input {
+    display: flex;
+    width: 100%;
+}
+
+.name-input .input-group {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-group label {
+    margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    max-width: 300px; /* Adjust maximum width as needed */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#response-message {
+    margin-top: 10px;
+    color: green;
+}

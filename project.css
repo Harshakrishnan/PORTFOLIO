@@ -1,0 +1,35 @@
+.polaroid-container {
+    display: flex;
+    justify-content: space-between; /* Distribute space evenly between the polaroid divs */
+    padding: 20px;
+}
+
+.polaroid {
+    width: calc(33.33% - 20px); /* Set width for each polaroid box */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Add shadow effect */
+    transition: transform 0.3s; /* Add smooth transition */
+}
+
+.polaroid:hover {
+    transform: translateY(-5px); /* Lift up on hover */
+}
+
+.container {
+    padding: 10px;
+}
+
+.container p {
+    text-align: center;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+img {
+    vertical-align: middle;
+}
+h1{
+    text-shadow:fuchsia;
+    text-decoration:darkslategrey;
+    text-decoration-line:underline;
+    color: black;
+}
